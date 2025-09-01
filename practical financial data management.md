@@ -56,7 +56,25 @@ It demonstrates **normalization, joins, aggregate functions, and reporting capab
     
      <img width="1135" height="793" alt="Screenshot 2025-08-28 155013" src="https://github.com/user-attachments/assets/b5396978-b5b8-423f-bc87-33d56e7a1744" />
      
+## dbdiagram Description
+<img width="720" height="520" alt="$RK3ZRIV" src="https://github.com/user-attachments/assets/c13a2e71-927e-4c60-9858-79bda400f8df" />
 
+
+This ER diagram represents the Personal Finance Tracker Database.
+
+It models key entities required to track user finances, including Users, Categories, Income, Expenses, and Balance.
+
+   - Users: Stores personal details of each user.
+
+   - Categories: Defines income and expense categories.
+
+   - Income: Records income transactions linked to users and categories.
+
+   - Expenses: Records expense transactions with payment methods.
+
+   - Balance: Summarizes total income, expenses, and net balance per user.
+
+The diagram was created using dbdiagram.io to visualize relationships, enforce normalization (3NF), and ensure referential integrity between tables.
 
 ## Conclusion
 The project demonstrates how SQL databases can be applied to real-life finance management.  
